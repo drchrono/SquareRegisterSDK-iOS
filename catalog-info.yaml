@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: SquareRegisterSDK-iOS
+  description: A simple library for letting Register take in-store payments for your
+    app using Register API.
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/SquareRegisterSDK-iOS
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - Objective-C
+    - Swift
+    - Ruby
+    - Shell
